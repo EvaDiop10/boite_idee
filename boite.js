@@ -25,7 +25,8 @@ liste_idee.forEach( (idee) => {
 
     let divcarte = document.createElement("div")
     divcarte.classList.add("card")
-    divcarte.style.width = ("18rem")
+    divcarte.style.width = "18rem"
+    divcarte.style.display= "inline-block"
 
     const divcardbody = document.createElement("div")
     divcardbody.classList.add("card-body")
